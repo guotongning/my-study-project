@@ -68,18 +68,19 @@ td {
 }
 
 .table {
+  font-size: 10px;
   width: 600px;
   position: absolute;
-  left: 50%;
+  left: 55%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-45%, -50%);
 }
 
 .tableHead {
-  background-color: deepskyblue;
+  background-color: #9fc4dc;
 }
 
 .tableBody {
-  background-color: lightblue;
+  background-color: #f4f5f1;
 }
 </style>

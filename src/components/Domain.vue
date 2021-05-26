@@ -1,5 +1,8 @@
 <template>
   <div>
+    <router-link :to="{name:'DomainList'}">
+      返回列表页
+    </router-link>
     <div>
       <p>描述：{{ domain.description }}</p>
       <p>域名：{{ domain.domain }}</p>

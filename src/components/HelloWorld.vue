@@ -79,6 +79,11 @@
           awesome-vue
         </a>
       </li>
+      <li>
+        <router-link :to="{name:'DomainList'}">
+          DomainList
+        </router-link>
+      </li>
     </ul>
   </div>
 </template>
@@ -113,4 +118,9 @@ li {
 a {
   color: #42b983;
 }
+
+router-link {
+  color: #42b983;
+}
+
 </style>
